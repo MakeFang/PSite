@@ -1,0 +1,12 @@
+
+body{
+    margin: 0;
+    font-family: Helvetica;
+}
+
+.tabs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

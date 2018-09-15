@@ -5,24 +5,49 @@
         <link rel="stylesheet" href="./styles.css">
     </head>
     <body>
-        <h1 class="banner">Hello</h1>
+
         <div class="tabs">
-            <button>Bio</button>
-            <button>Projects</button>
-            <button>Articles</button>
-            <button>Contact Me</button>
+            <button class="tabbutton" id="logo"><img class="logopic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Square_compasses.svg/220px-Square_compasses.svg.png"></button>
+            <button class="tabbutton">Projects</button>
+            <button class="tabbutton">Articles</button>
+            <button class="tabbutton">Bio</button>
+            <button class="tabbutton">Contact Me</button>
         </div>
-        <div id="Bio" class="tabcontent">
-            <h3>Bio here</h3>
+
+        <div class="contents">
+
+            <div id="Intro" class="tabcontent">
+                <h1 id="slogan">Fancy Slogan, Inspiring Words</h3>
+            </div>
+
+            <div id="Projects" class="tabcontent">
+                <h1 id="slogan">Projects here</h3>
+                <ul class="projectlist">
+                    <li><h3>Project 1</h3></li>
+                    <li><h3>Project 2</h3></li>
+                    <li><h3>Project 3</h3></li>
+                </ul>
+                <a href="#" class="morelink">View More</a>
+            </div>
+
+            <div id="Articles" class="tabcontent">
+                <h1 id="slogan">Articles here</h3>
+                <ul class="articlelist">
+                    <li><h3>Article 1 Title</h3></li>
+                    <li><h3>Article 2 Title</h3></li>
+                    <li><h3>Article 3 Title</h3></li>
+                </ul>
+                <a href="#" class="morelink">View More</a>
+            </div>
+
+            <div id="Bio" class="tabcontent">
+                <h1 id="slogan">Bio here</h3>
+            </div>
+
+            <div id="Contact" class="tabcontent">
+                <h1 id="slogan">Contact info here</h3>
+            </div>
         </div>
-        <div id="Projects" class="tabcontent">
-            <h3>Projects here</h3>
-        </div>
-        <div id="Articles" class="tabcontent">
-            <h3>Articles here</h3>
-        </div>
-        <div id="Contact" class="tabcontent">
-            <h3>Contact info here</h3>
-        </div>
+
     </body>
 </html>

@@ -68,14 +68,25 @@ div #slogan{
     text-align: center;
 }
 
+/* .projectlist{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+max-height: 100%;
+justify-content: center;
+padding-inline-start: 10px;
+padding-inline-end: 10px;
+} */
+
 .projectlist{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    max-height: 100%;
-    justify-content: center;
-    padding-inline-start: 10px;
-    padding-inline-end: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 5fr 1fr;
+    grid-gap: 10px 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    grid-template-areas: "a b c"
+                         "d d d";
 }
 
 .projectlist>li{
@@ -83,10 +94,34 @@ div #slogan{
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: 15em;
-    height: 20em;
+    /* height: 20em; */
     text-align: center;
     border: 1px solid silver;
     margin: 2.5px;
+}
+
+.box {
+    min-height: 50px;
+}
+
+.a {
+    background-color: silver;
+    grid-area: a;
+}
+
+.b {
+    background-color: silver;
+    grid-area: b;
+}
+
+.c {
+    background-color: silver;
+    grid-area: c;
+}
+
+.d {
+    background-color: silver;
+    grid-area: d;
 }
 
 .content #Articles{
@@ -100,8 +135,8 @@ div #slogan{
     /* height: 100%;
     max-height: 100%; */
     justify-content: flex-start;
-    padding-inline-start: 10px;
-    padding-inline-end: 10px;
+    padding-inline-start: 50px;
+    padding-inline-end: 50px;
 }
 
 .articlelist>li{
@@ -115,8 +150,7 @@ div #slogan{
 }
 
 .morelink{
-    display: block;
     width: 100%;
-    text-align: right;
+    text-align: center;
 
 }

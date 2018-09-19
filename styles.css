@@ -52,7 +52,7 @@ a:hover{
 }
 
 .tabbutton:hover{
-    background-color: silver;
+    border: 1px solid silver;
 }
 
 .logopic{

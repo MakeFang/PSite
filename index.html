@@ -1,54 +1,98 @@
-<html>
+<!DOCTYPE HTML>
+<html lang="en">
+
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8"/>
         <title>Fang</title>
         <link rel="stylesheet" href="./styles.css">
     </head>
+
     <body>
+        <div class="container">
+            <nav class="navbar">
+                <div class="tabs">
+                    <button class="tabbutton logo"><img class="logopic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Square_compasses.svg/220px-Square_compasses.svg.png" alt="Logo"/></button>
+                    <button class="tabbutton">Projects</button>
+                    <button class="tabbutton">Articles</button>
+                    <button class="tabbutton">Contact Me</button>
+                </div>
+            </nav>
 
-        <div class="tabs">
-            <button class="tabbutton" id="logo"><img class="logopic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Square_compasses.svg/220px-Square_compasses.svg.png"></button>
-            <button class="tabbutton">Projects</button>
-            <button class="tabbutton">Articles</button>
-            <button class="tabbutton">Bio</button>
-            <button class="tabbutton">Contact Me</button>
-        </div>
 
-        <div class="contents">
-
-            <div id="Intro" class="tabcontent">
-                <h1 id="slogan">Kuan-Ying Fang</h1>
-                <h4 id="slogan">Developer</h4>
+            <div class="Intro">
+                <h1 class="name">Kuan-Ying Fang</h1>
+                <p class="desc">Developer</p>
             </div>
 
-            <div id="Projects" class="tabcontent">
-                <h1 id="slogan">Projects here</h3>
+            <div class="Projects">
+                <h2 class="slogan">Projects</h2>
                 <ul class="projectlist">
-                    <li class="box a"><h3>Project 1</h3></li>
-                    <li class="box b"><h3>Project 2</h3></li>
-                    <li class="box c"><h3>Project 3</h3></li>
-                    <li class="box d"><h3><a href="#" class="morelink">View More</a></h3></li>
+                    <li class="box a">
+                        <a href="#">
+                            <img height="200" src="https://i.imgur.com/BbWOLnc.png" alt="MEMM">
+                            <p>MEMM</p>
+                        </a>
+                    </li>
+                    <li class="box b">
+                        <a href="#">
+                            <img height="200" src="https://i.imgur.com/0zzdveb.png" alt="LDA">
+                            <p>LSI/LDA</p>
+                        </a>
+                    </li>
+                    <li class="box c">
+                        <a href="#">
+                            <img height="200" src="https://i.imgur.com/Tg2y0vo.png" alt="Parsing">
+                            <p>Parsing</p>
+                        </a>
+                    </li>
+                    <li class="box d">
+                        <a href="#" class="morelink">View More</a>
+                    </li>
                 </ul>
             </div>
 
-            <div id="Articles" class="tabcontent">
-                <h1 id="slogan">Articles here</h3>
+            <div class="Articles">
+                <h2 class="slogan">Articles</h2>
                 <ul class="articlelist">
-                    <li><h3>Article 1 Title</h3></li>
-                    <li><h3>Article 2 Title</h3></li>
-                    <li><h3>Article 3 Title</h3></li>
-                    <li><h3><a href="#" class="morelink">View More</a></h3></li>
+                    <li class="box e">
+                        <a href="#">
+                            <h3>Article 1 Title</h3>
+                        </a>
+                    </li>
+                    <li class="box f">
+                        <a href="#">
+                            <h3>Article 2 Title</h3>
+                        </a>
+                    </li>
+                    <li class="box g">
+                        <a href="#">
+                            <h3>Article 3 Title</h3>
+                        </a>
+                    </li>
+                    <li class="box h">
+                        <a href="#" class="morelink">View More</a>
+                    </li>
                 </ul>
             </div>
 
-            <div id="Bio" class="tabcontent">
-                <h1 id="slogan">Bio here</h3>
-            </div>
+            <!-- <div class="Bio">
+                <h1 class="slogan">Bio here</h1>
+            </div> -->
 
-            <div id="Contact" class="tabcontent">
-                <h1 id="slogan">Contact info here</h3>
+            <div class="Contact">
+                <h3>Connect</h3>
+                <div class="contacticons">
+                    <a href="#">
+                        <img height="50" src="https://i.imgur.com/NpGnDoQ.png" alt="Linkedin">
+                    </a>
+                    <a href="#">
+                        <img height="50" src="https://i.imgur.com/sRl7lN0.png" alt="Facebook">
+                    </a>
+                    <a href="#">
+                        <img height="50" src="https://i.imgur.com/lc8Y7aW.png" alt="Twitter">
+                    </a>
+                </div>
             </div>
         </div>
-
     </body>
 </html>

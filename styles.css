@@ -43,16 +43,16 @@ a:hover{
     border: none;
     outline: none;
     padding: 5px;
-    width: 15%;
+    width: 10%;
     font-size: 0.8em;
 }
 
 .tabs .logo{
-    width: 55%;
+    width: 70%;
 }
 
 .tabbutton:hover{
-    border: 1px solid silver;
+    background-color: gainsboro;
 }
 
 .logopic{
@@ -64,6 +64,15 @@ a:hover{
 /* CONTENT SECTION */
 
 /* INTRO */
+
+.slogan{
+    text-align: center;
+}
+
+.morelink{
+    display: block;
+    margin-top: 30px;
+}
 
 .Intro {
     grid-column: 1 / 13;
@@ -81,6 +90,9 @@ a:hover{
 .Intro > .desc{
     grid-row: 2 / 3;
     text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px;
 }
 
 /* PROJECTS */
@@ -112,6 +124,12 @@ a:hover{
     grid-template-rows: 4fr 1fr;
     grid-gap: 10px 10px;
     color: #666;
+}
+
+.projectlist > .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .a {

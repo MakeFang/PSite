@@ -39,7 +39,7 @@ a:hover{
     border-bottom: 1px solid silver;
 }
 
-.tabbutton{
+.tab-button{
     border: none;
     outline: none;
     padding: 5px;
@@ -51,8 +51,8 @@ a:hover{
     width: 70%;
 }
 
-.tabbutton:hover{
-    background-color: gainsboro;
+.tab-button:hover{
+    text-decoration: underline;
 }
 
 .logopic{
@@ -67,9 +67,10 @@ a:hover{
 
 .slogan{
     text-align: center;
+    border-bottom: 1px solid grey;
 }
 
-.morelink{
+.more-link{
     display: block;
     margin-top: 30px;
 }
@@ -97,7 +98,7 @@ a:hover{
 
 /* PROJECTS */
 
-.Projects{
+.projects{
     grid-column: 1 / 13;
     grid-row: 3 / 4;
     display: grid;
@@ -106,13 +107,13 @@ a:hover{
     grid-gap: 10px 10px;
 }
 
-.Projects > .slogan{
+.projects > .slogan{
     grid-column: 1 / 4;
     grid-row: 1 / 2;
     /* text-align: center; */
 }
 
-.projectlist{
+.project-list{
     grid-column: 1 / 4;
     grid-row: 2 / 3;
     padding-left: 0px;
@@ -126,7 +127,7 @@ a:hover{
     color: #666;
 }
 
-.projectlist > .box{
+.project-list > .box{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -166,7 +167,7 @@ a:hover{
 
 /* ARTICLES */
 
-.Articles{
+.articles{
     grid-column: 1 / 13;
     grid-row: 4 / 5;
     display: grid;
@@ -175,12 +176,12 @@ a:hover{
     grid-gap: 10px 10px;
 }
 
-.Articles > .slogan{
+.articles > .slogan{
     grid-column: 1 / 4;
     grid-row: 1 / 2;
 }
 
-.articlelist{
+.article-list{
     grid-column: 1 / 4;
     grid-row: 2 / 3;
     padding-left: 0px;
@@ -192,7 +193,7 @@ a:hover{
     color: #666;
 }
 
-.Contact{
+.contact{
     grid-column: 1 / 13;
     grid-row: 5 / 6;
 }
@@ -201,20 +202,20 @@ a:hover{
     grid-row: 1 / 2;
 }
 .e:hover{
-    border: 1px solid silver;
+    text-decoration: underline;
 }
 .f{
     grid-row: 2 / 3;
 }
 .f:hover{
-    border: 1px solid silver;
+    text-decoration: underline;
 }
 
 .g{
     grid-row: 3 / 4;
 }
 .g:hover{
-    border: 1px solid silver;
+    text-decoration: underline;
 }
 
 .h{
@@ -224,13 +225,13 @@ a:hover{
 
 /* CONNECTIONS */
 
-.contacticons{
+.contact-icons{
     text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.contacticons a{
+.contact-icons a{
     padding: 5px;
 }
